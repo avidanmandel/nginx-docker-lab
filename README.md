@@ -198,12 +198,14 @@ This repository includes screenshots that show:
 
 Screenshot files included:
 
-- `ssh-connected-to-ec2.png`
-- `03-docker-hello-world.png`
-- `04-nginx-container-running.png`
-- `05-nginx-container-running.png`
-- `05-nginx-localhost-test.png`
-- `06-nginx-browser-public-ip.png`
+Screenshot files included:
+
+- `ssh-connected-to-ec2.png` - Successful SSH connection to the Ubuntu EC2 instance.
+- `03-docker-hello-world.png` - Docker hello-world test showing that Docker is installed and working.
+- `04-nginx-container-running.png` - Running the Nginx container with Docker using port mapping `80:80`.
+- `05-nginx-container-running.png` - Verifying the running Nginx container with `sudo docker ps`, including `0.0.0.0:80->80/tcp`.
+- `05-nginx-localhost-test.png` - Testing Nginx locally from inside the EC2 instance using `curl http://localhost`.
+- `06-nginx-browser-public-ip.png` - Accessing the Nginx welcome page from the browser using the EC2 public IP address.
 
 ## Important Security Note
 
